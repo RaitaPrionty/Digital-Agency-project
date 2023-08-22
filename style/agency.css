@@ -245,6 +245,32 @@ nav h1{
 ul p{
     color: gray;
 }
+/* last section style */
+.last-section{
+    background-image: url(../assest/image/footer-bg.png);
+    background-color: black;
+    background-blend-mode: overlay;
+    align-items: center;
+}
+.last-section p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.last-section{
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    padding: 40px 100px;
+    border-bottom: 3px solid grey;
+    height: 300px;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    
+}
+
 
 
 
