@@ -75,10 +75,12 @@ nav h1{
 .service-h1-btn-p-li{
     color: white;
     background-image: url(../assest/image/footer-bg.png);
-    background-color: black;
-    height: 100vh;
+    /* background-color: black; */
+    
     width: auto;
     background-position: center;
+    
+    
 }
 .service-btn{
     background-color: antiquewhite;
@@ -131,5 +133,102 @@ nav h1{
     padding-left: 20px;
     border-left: 3px solid red;
 }
+.section-top-pic{
+    display: flex;
+    gap: 20px;
+}
+.section-right-part{
+    display: flex;
+    gap: 20px;
+    
+}
+.section-bottom-pic{
+    display: flex;
+}
+.service{
+    background-color: black;
+    
+}
+.left{
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    width: 700px;
+    /* height: 100vh; */
+    padding: 50px;
+    text-align: center;
+    margin-inline: 20px;
+    height: 300px;
+    
+    
+    
+
+}
+.service{
+    display: flex;
+}
+.right{
+    width: 700px;
+    height: auto;
+    padding-bottom: 100px;
+
+}
+.top-pic{
+    border-right: 10px solid black;
+    border-inline: 5px solid black;
+}
+.bottom-pic{
+    border-right: 5px solid black;
+    margin-bottom: 100px;
+    
+}
+.red{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    color: white;
+    padding: 0px 50px;
+    border-radius: 20px;
+    height: 150px;
+    
+    
+}
+.call{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.para-btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.make-btn{
+    border-radius: 20px;
+    padding: 15px 20px;
+}
+.para-btn p{
+    
+    padding: 50px;
+}
+.red-part{
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: -5%;
+    
+    
+    
+    
+
+
+    
+}
+
+
+
+
+
+
 
 
