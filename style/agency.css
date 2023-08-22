@@ -157,8 +157,9 @@ nav h1{
     /* height: 100vh; */
     padding: 50px;
     text-align: center;
-    margin-inline: 20px;
+    /* margin-inline: 20px; */
     height: 300px;
+    padding-bottom: 70px;
     
     
     
@@ -170,15 +171,15 @@ nav h1{
 .right{
     width: 700px;
     height: auto;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 
 }
 .top-pic{
     border-right: 10px solid black;
-    border-inline: 5px solid black;
+    /* border-inline: 5px solid black; */
 }
 .bottom-pic{
-    border-right: 5px solid black;
+    /* border-right: 5px solid black; */
     margin-bottom: 100px;
     
 }
@@ -216,14 +217,36 @@ nav h1{
     margin-right: 200px;
     margin-left: 200px;
     margin-top: -5%;
-    
-    
-    
-    
 
-
-    
 }
+/* blog section styles */
+.blog span{
+    color: red;
+}
+.blog{
+    text-align: center;
+    padding: 30px;
+}
+.blog p{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: gray;
+}
+.blog ul{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 20px; */
+    border: 20px solid white;
+    list-style: none;
+    background-color: whitesmoke;
+    /* margin: 0px 30px; */
+    margin-right: 40px;
+}
+ul p{
+    color: gray;
+}
+
+
 
 
 
