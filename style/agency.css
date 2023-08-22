@@ -60,7 +60,7 @@ nav h1{
     color: white;
 }
 .banner{
-    background-image: url(../assest/image/background.jpg); 
+    background-image: url(../assest/image/background.jpg), linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); 
     background-blend-mode:overlay;
     width: auto;
     height: 100vh;
@@ -74,11 +74,12 @@ nav h1{
 /* service styles */
 .service-h1-btn-p-li{
     color: white;
-    background-image: url(../assest/image/footer-bg.png);
+    background-image: url(../assest/image/footer-bg.png),linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
     /* background-color: black; */
     
     width: auto;
     background-position: center;
+    background-blend-mode: overlay;
     
     
 }
@@ -247,8 +248,8 @@ ul p{
 }
 /* last section style */
 .last-section{
-    background-image: url(../assest/image/footer-bg.png);
-    background-color: black;
+    background-image: url(../assest/image/footer-bg.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));;
+    /* background-color: black; */
     background-blend-mode: overlay;
     align-items: center;
 }
